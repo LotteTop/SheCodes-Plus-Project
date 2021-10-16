@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+  width: 80%;
+}
+
+h1 {
+  text-align: left;
+  color: #acc6aa;
+  font-weight: 900;
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+}
+
+h2 {
+  color: #77628c;
+  display: block;
+}
+
+form {
+  display: block;
+  margin: 20px auto;
+}
+
+.search-icon {
+  color: #acc6aa;
+  position: relative;
+  right: 100px;
+}
+
+.additional-info {
+  font-size: 12px;
+  color: #77628c;
+}
+
+.temperature {
+  font-size: 80px;
+  color: #77628c;
+}
+
+.weather-icon {
+  color: #faf8d7;
+  font-size: 80px;
+}
+
+.weather-icon-small {
+  color: #faf8d7;
+  font-size: 40px;
+  text-align: center;
+}
+
+.week {
+  text-align: center;
+}
