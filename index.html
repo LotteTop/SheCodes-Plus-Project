@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Missing files debugging</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/611b260178.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="border rounded p-4 m-5">
+    <header>
+      <h1>Weather Info</h1>
+      <span>
+        <form class="citySearch" id="search-form">
+          <input
+            type="search"
+            placeholder="Enter your city"
+            id="search-input"
+          />
+          <input type="submit" value="Search!" class="search-button" />
+          <span class="search-icon"><i class="fas fa-search"></i></span>
+        </form>
+      </span>
+    </header>
+    <h2>Groningen</h2>
+    <div class="row">
+      <div class="col-7">
+        <p class="temperature" id="temperature">
+          <i class="fas fa-cloud weather-icon"></i> 19°C
+        </p>
+        <p />
+      </div>
+      <div class="col-5">
+        <p class="additional-info">
+          <br />
+          precipitation: 23% <br />
+          wind: 4 WE <br />
+          <br />
+          sunrise: 5:65 AM <br />
+          sunset: 21:23 PM
+        </p>
+      </div>
+
+      <p />
+    </div>
+    <div class="row week">
+      <div class="col-2">
+        Monday <br />
+        <i class="fas fa-cloud weather-icon-small"></i> 19°C
+      </div>
+      <div class="col-2">
+        Tuesday <br />
+        <i class="fas fa-cloud weather-icon-small"></i> 19°C
+      </div>
+      <div class="col-2">
+        Wednesday <br />
+        <i class="fas fa-cloud weather-icon-small"></i> 19°C
+      </div>
+      <div class="col-2">
+        Thursday <br />
+        <i class="fas fa-cloud weather-icon-small"></i> 19°C
+      </div>
+      <div class="col-2">
+        Friday <br />
+        <i class="fas fa-cloud weather-icon-small"></i> 19°C
+      </div>
+      <div class="col-2">
+        Saturday <br />
+        <i class="fas fa-cloud weather-icon-small"></i> 19°C
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
